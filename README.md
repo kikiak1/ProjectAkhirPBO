@@ -8,7 +8,7 @@ Anggota :
 
 # Pembagian Tugas :
 
-- Aditya Apri Nugroho : 
+- Aditya Apri Nugroho :  
 
 - Muhammad Rizki Kurniawan : 
 
