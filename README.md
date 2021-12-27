@@ -14,6 +14,9 @@ Anggota :
 
 - Nur Mita Utami : 
 
+# About this project :
+Sistem dapat digunakan untuk transaksi perekaman nasabah di bank, dimana terdapat 2 jenis akun yaitu individual dan perusahaan. Setiap Pemegang Akun dapat memiliki 1 atau lebih akun.
+
 # Libraries and Tools of this project:
 
 - mysql-connector-java-8.0.26.jar
