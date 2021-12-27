@@ -16,10 +16,8 @@ Anggota :
 
 # Libraries and Tools of this project:
 
-- mysql-connector-java-5.1.xx.jar
-- sqlite-jdbc-3.xx.jar
+- mysql-connector-java-8.0.26.jar
 - scene builder
-- sqlite studio
 - netbean editor
 - JDK 1.8
 
@@ -86,6 +84,9 @@ classDiagram
         getConnection(String driver)
         createTable();
     }
+    
+    ![Class Diagram Banyak](https://user-images.githubusercontent.com/83533356/147458890-955c0dd8-c9fb-4df1-8d11-5d6f0ca73620.PNG)
+
     Nasabah <|-- Individu
     Nasabah <|-- Perusahaan
     Nasabah "1"--o"*" Rekening : has
@@ -110,9 +111,10 @@ classDiagram
       +double getSaldo()
       +double getRek()
     }
+    
+    ![Class Diagram Dikit](https://user-images.githubusercontent.com/83533356/147458926-8f9cf1a1-33f0-4b7b-8b72-5f9a14f5ec6d.PNG)
+    
 ```
-
-![plot](ClassDiagram.png)
 
 # ER Diagram
 
@@ -137,5 +139,7 @@ erDiagram
             int rek
             double saldo
           }
+          
+          ![ERD](https://user-images.githubusercontent.com/83533356/147458964-614cbada-4707-4aa3-9ffd-e091015c411e.PNG)
+
 ```
-![plot](ERDiagram.png)
