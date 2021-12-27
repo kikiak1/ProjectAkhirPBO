@@ -8,11 +8,11 @@ Anggota :
 
 # Pembagian Tugas :
 
-- Aditya Apri Nugroho : 
+- Aditya Apri Nugroho : membuat dan mengembangkan class yang digunakan dalam project
 
-- Muhammad Rizki Kurniawan : 
+- Muhammad Rizki Kurniawan : Membuat dan mendesain GUI menggunakan Scene Builder dan javaFX
 
-- Nur Mita Utami : 
+- Nur Mita Utami : membuat dan menghubungkan program ke dalam database menggunakan MYSQL
 
 # About this project :
 Sistem dapat digunakan untuk transaksi perekaman nasabah di bank, dimana terdapat 2 jenis akun yaitu individual dan perusahaan. Setiap Pemegang Akun dapat memiliki 1 atau lebih akun.
