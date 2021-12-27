@@ -1,5 +1,7 @@
 # Final_Project_Kelompok_PBO
 
+Sistem dapat digunakan untuk transaksi perekaman data pemegang akun di bank, dimana terdapat 2 jenis akun yaitu individual dan corporate. Setiap Pemegang Akun dapat memiliki 1 atau lebih akun.
+
 Anggota :
 
 - Aditya Apri Nugroho 2017051026
@@ -8,7 +10,7 @@ Anggota :
 
 # Pembagian Tugas :
 
-- Aditya Apri Nugroho :  
+- Aditya Apri Nugroho : 
 
 - Muhammad Rizki Kurniawan : 
 
