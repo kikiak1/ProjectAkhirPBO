@@ -85,7 +85,7 @@ classDiagram
         createTable();
     }
     
-    ![Class Diagram Banyak](https://user-images.githubusercontent.com/83533356/147458890-955c0dd8-c9fb-4df1-8d11-5d6f0ca73620.PNG)
+![Class Diagram Banyak](https://user-images.githubusercontent.com/83533356/147458890-955c0dd8-c9fb-4df1-8d11-5d6f0ca73620.PNG)
 
     Nasabah <|-- Individu
     Nasabah <|-- Perusahaan
@@ -112,7 +112,7 @@ classDiagram
       +double getRek()
     }
     
-    ![Class Diagram Dikit](https://user-images.githubusercontent.com/83533356/147458926-8f9cf1a1-33f0-4b7b-8b72-5f9a14f5ec6d.PNG)
+![Class Diagram Dikit](https://user-images.githubusercontent.com/83533356/147458926-8f9cf1a1-33f0-4b7b-8b72-5f9a14f5ec6d.PNG)
     
 ```
 
@@ -140,6 +140,6 @@ erDiagram
             double saldo
           }
           
-          ![ERD](https://user-images.githubusercontent.com/83533356/147458964-614cbada-4707-4aa3-9ffd-e091015c411e.PNG)
+![ERD](https://user-images.githubusercontent.com/83533356/147458964-614cbada-4707-4aa3-9ffd-e091015c411e.PNG)
 
 ```
