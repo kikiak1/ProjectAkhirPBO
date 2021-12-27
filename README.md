@@ -1,7 +1,5 @@
 # Final_Project_Kelompok_PBO
 
-Sistem dapat digunakan untuk transaksi perekaman data pemegang akun di bank, dimana terdapat 2 jenis akun yaitu individual dan corporate. Setiap Pemegang Akun dapat memiliki 1 atau lebih akun.
-
 Anggota :
 
 - Aditya Apri Nugroho 2017051026
@@ -88,8 +86,7 @@ classDiagram
     } 
 ```
 
-![Class Diagram Banyak](https://user-images.githubusercontent.com/83533356/147459301-347ed88f-0dbc-4c8c-b7bd-46910d4253fc.PNG)
-
+![mermaid-diagram-20211227170535](https://user-images.githubusercontent.com/83533356/147460991-9bcd3d75-6ecc-4fe2-8379-fa388386a19e.png)
 
 # Class Diagram
 
@@ -122,10 +119,7 @@ classDiagram
     }
 ``` 
 
-![Class Diagram Dikit](https://user-images.githubusercontent.com/83533356/147459320-7d9ced7e-605c-4221-9d6d-43a59157e2cc.PNG)
-
-    
-
+![mermaid-diagram-20211227170643](https://user-images.githubusercontent.com/83533356/147461087-33914ef4-edaf-4372-b4f0-4aa502bd1d1b.png)
 
 # ER Diagram
 
@@ -152,7 +146,5 @@ erDiagram
           }
 ```       
 
-![ERD](https://user-images.githubusercontent.com/83533356/147459343-3bb51478-330f-46f1-bcd2-eb2aa6ba11cc.PNG)
-
-
+![mermaid-diagram-20211227170737](https://user-images.githubusercontent.com/83533356/147461178-adcfbae6-601d-4089-a50d-63d5ad219fa9.png)
 
