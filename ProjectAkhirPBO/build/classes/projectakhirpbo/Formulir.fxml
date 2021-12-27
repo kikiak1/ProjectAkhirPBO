@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="640.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectakhirpbo.FormulirController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="24.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TabPane layoutX="14.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <tabs>
+                  <Tab text="Individu">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <AnchorPane layoutX="76.0" layoutY="12.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #00264D;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <AnchorPane layoutX="300.0" layoutY="154.0" prefHeight="591.0" prefWidth="970.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                       <children>
+                                          <TableView fx:id="tblNasabahI" layoutX="189.0" layoutY="144.0" prefHeight="347.0" prefWidth="960.0" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="-286.0" AnchorPane.rightAnchor="296.0" AnchorPane.topAnchor="0.0">
+                                             <columns>
+                                                <TableColumn fx:id="colIdNasabahI" prefWidth="120.0" text="ID" />
+                                                <TableColumn fx:id="colNamaI" prefWidth="178.33331298828125" text="Nama" />
+                                                <TableColumn fx:id="colAlamatI" prefWidth="259.33331298828125" text="Alamat" />
+                                                <TableColumn fx:id="colNikI" prefWidth="174.66668701171875" text="NIK" />
+                                                <TableColumn fx:id="colNpwpI" prefWidth="236.66668701171875" text="NPWP" />
+                                             </columns>
+                                          </TableView>
+                                          <TableView fx:id="tblRekI" layoutX="121.0" layoutY="356.0" prefHeight="235.0" prefWidth="551.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="121.0" AnchorPane.rightAnchor="298.0" AnchorPane.topAnchor="356.0">
+                                             <columns>
+                                                <TableColumn fx:id="colNoRekI" prefWidth="232.33334350585938" text="No Rekening" />
+                                                <TableColumn fx:id="colSaldoI" prefWidth="317.6666564941406" text="Saldo" />
+                                             </columns>
+                                          </TableView>
+                                          <AnchorPane layoutX="686.0" prefHeight="591.0" prefWidth="284.0" style="-fx-background-color: #808080;">
+                                             <children>
+                                                <Label alignment="CENTER" layoutX="42.0" layoutY="7.0" prefHeight="36.0" prefWidth="223.0" text="Formulir Nasabah" textAlignment="CENTER" underline="true" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                                   <font>
+                                                      <Font name="Arial" size="23.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextField fx:id="tfIdNI" editable="false" layoutX="18.0" layoutY="84.0" prefHeight="32.0" prefWidth="261.0" promptText="ID Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="80.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <TextField fx:id="tfNamaNI" layoutX="10.0" layoutY="117.0" prefHeight="32.0" prefWidth="261.0" promptText="Nama Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <TextField fx:id="tfAlamatNI" layoutX="10.0" layoutY="154.0" prefHeight="32.0" prefWidth="261.0" promptText="Alamat Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <TextField fx:id="tfNikI" layoutX="10.0" layoutY="191.0" prefHeight="32.0" prefWidth="261.0" promptText="NIK" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <TextField fx:id="tfNpwpI" layoutX="10.0" layoutY="228.0" prefHeight="32.0" prefWidth="261.0" promptText="NPWP" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <TextField fx:id="tfNoRekI" editable="false" layoutX="10.0" layoutY="316.0" prefHeight="32.0" prefWidth="261.0" promptText="Nomor Rekening" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <TextField fx:id="tfSaldoI" layoutX="10.0" layoutY="353.0" prefHeight="32.0" prefWidth="261.0" promptText="Saldo" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <Button fx:id="btnTambahNI" layoutX="10.0" layoutY="427.0" mnemonicParsing="false" onAction="#handleTambahNIBtn" text="Tambah Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </Button>
+                                                <Button fx:id="btnMuatUlangDataI" layoutX="10.0" layoutY="464.0" mnemonicParsing="false" onAction="#handleMuatUlangIBtn" text="Muat Ulang Data" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </Button>
+                                                <Button fx:id="btnHapusDataI" layoutX="10.0" layoutY="502.0" mnemonicParsing="false" onAction="#handleHapusIBtn" text="Hapus Data" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </Button>
+                                                <Label prefHeight="17.0" prefWidth="103.0" text="DataBase Status :" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="174.0" />
+                                                <Label fx:id="lblStatusI" layoutX="107.0" prefHeight="17.0" prefWidth="162.0" text="Tidak Terkoneksi" textFill="RED" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="107.0" />
+                                             </children>
+                                          </AnchorPane>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane fx:id="fieldNewRekI" layoutX="14.0" layoutY="367.0" prefHeight="234.0" prefWidth="400.0" style="-fx-background-color: #808080;" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="866.0" AnchorPane.topAnchor="367.0">
+                                       <children>
+                                          <Label layoutX="19.0" layoutY="46.0" prefHeight="0.0" prefWidth="387.0" text="Rekening Baru" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0">
+                                             <font>
+                                                <Font size="25.0" />
+                                             </font>
+                                          </Label>
+                                          <TextField fx:id="tfNewIdNI" editable="false" layoutX="10.0" layoutY="49.0" prefHeight="32.0" prefWidth="261.0" promptText="ID Nasabah" AnchorPane.leftAnchor="10.0">
+                                             <font>
+                                                <Font size="15.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField fx:id="tfNewNoRekI" editable="false" layoutX="10.0" layoutY="86.0" prefHeight="32.0" prefWidth="261.0" promptText="Nomor Rekening Baru" AnchorPane.leftAnchor="10.0">
+                                             <font>
+                                                <Font size="15.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField fx:id="tfNewSaldoI" layoutX="10.0" layoutY="125.0" prefHeight="32.0" prefWidth="261.0" promptText="Jumlah Saldo" AnchorPane.leftAnchor="10.0">
+                                             <font>
+                                                <Font size="15.0" />
+                                             </font>
+                                          </TextField>
+                                          <Button fx:id="btnTambahRekI" layoutX="10.0" layoutY="195.0" mnemonicParsing="false" onAction="#handleTambahRekIBtn" prefHeight="31.0" prefWidth="261.0" text="Tambah Rekening" AnchorPane.leftAnchor="10.0">
+                                             <font>
+                                                <Font size="15.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Perusahaan">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <AnchorPane layoutX="76.0" layoutY="12.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #00264D;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <HBox layoutX="986.0" layoutY="226.0" prefHeight="591.0" prefWidth="284.0" style="-fx-background-color: #92DFF3;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="986.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                       <children>
+                                          <AnchorPane prefHeight="591.0" prefWidth="300.0" style="-fx-background-color: #808080;">
+                                             <children>
+                                                <Label alignment="CENTER" layoutX="42.0" layoutY="7.0" prefHeight="36.0" prefWidth="223.0" text="Formulir Nasabah" textAlignment="CENTER" underline="true" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                                   <font>
+                                                      <Font name="Arial" size="23.0" />
+                                                   </font>
+                                                </Label>
+                                                <TextField fx:id="tfIdNP" editable="false" layoutX="18.0" layoutY="84.0" prefHeight="32.0" prefWidth="261.0" promptText="ID Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="80.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <TextField fx:id="tfNamaP" layoutX="10.0" layoutY="117.0" prefHeight="32.0" prefWidth="261.0" promptText="Nama Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <TextField fx:id="tfAlamatP" layoutX="10.0" layoutY="154.0" prefHeight="32.0" prefWidth="261.0" promptText="Alamat Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <TextField fx:id="tfNibP" layoutX="10.0" layoutY="191.0" prefHeight="32.0" prefWidth="261.0" promptText="NIB" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <TextField fx:id="tfNoRekP" editable="false" layoutX="10.0" layoutY="316.0" prefHeight="32.0" prefWidth="261.0" promptText="Nomor Rekening" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <TextField fx:id="tfSaldoP" layoutX="10.0" layoutY="353.0" prefHeight="32.0" prefWidth="261.0" promptText="Saldo" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </TextField>
+                                                <Button fx:id="btnTambahNP" layoutX="10.0" layoutY="427.0" mnemonicParsing="false" onAction="#handleTambahNPBtn" text="Tambah Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </Button>
+                                                <Button fx:id="btnMuatUlangDataP" layoutX="10.0" layoutY="464.0" mnemonicParsing="false" onAction="#handleMuatUlangPBtn" text="Muat Ulang Data" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </Button>
+                                                <Button fx:id="btnHapusDataP" layoutX="10.0" layoutY="502.0" mnemonicParsing="false" onAction="#handleHapusPBtn" text="Hapus Data" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                   <font>
+                                                      <Font size="15.0" />
+                                                   </font>
+                                                </Button>
+                                                <Label prefHeight="17.0" prefWidth="97.0" text="DataBase Status :" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="174.0" />
+                                                <Label fx:id="lblStatusP" layoutX="107.0" prefHeight="17.0" prefWidth="163.0" text="Tidak Terkoneksi" textFill="RED" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="107.0" AnchorPane.rightAnchor="10.0" />
+                                             </children>
+                                          </AnchorPane>
+                                       </children>
+                                    </HBox>
+                                    <AnchorPane layoutX="300.0" layoutY="154.0" prefHeight="591.0" prefWidth="682.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="298.0" AnchorPane.topAnchor="10.0">
+                                       <children>
+                                          <TableView fx:id="tblNP" layoutX="-286.0" layoutY="144.0" prefHeight="347.0" prefWidth="960.0" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="-286.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="0.0">
+                                             <columns>
+                                                <TableColumn fx:id="colIdNP" prefWidth="120.0" text="ID" />
+                                                <TableColumn fx:id="colNamaP" prefWidth="355.66668701171875" text="Nama" />
+                                                <TableColumn fx:id="colAlamatP" prefWidth="270.33331298828125" text="Alamat" />
+                                                <TableColumn fx:id="colNibP" prefWidth="223.0" text="NIB" />
+                                             </columns>
+                                          </TableView>
+                                          <TableView fx:id="tblRekP" layoutX="121.0" layoutY="356.0" prefHeight="235.0" prefWidth="553.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="121.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="356.0">
+                                             <columns>
+                                                <TableColumn fx:id="colNoRekP" prefWidth="232.33334350585938" text="No Rekening" />
+                                                <TableColumn fx:id="colSaldoP" prefWidth="317.6666564941406" text="Saldo" />
+                                             </columns>
+                                          </TableView>
+                                       </children>
+                                    </AnchorPane>
+                                    <AnchorPane fx:id="fieldNewRekP" layoutX="14.0" layoutY="368.0" prefHeight="233.0" prefWidth="399.0" style="-fx-background-color: #808080;" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="867.0" AnchorPane.topAnchor="368.0">
+                                       <children>
+                                          <Label layoutX="19.0" layoutY="46.0" prefHeight="0.0" prefWidth="387.0" text="Rekening Baru" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0">
+                                             <font>
+                                                <Font size="25.0" />
+                                             </font>
+                                          </Label>
+                                          <TextField fx:id="tfNewIdNP" editable="false" layoutX="10.0" layoutY="49.0" prefHeight="32.0" prefWidth="261.0" promptText="ID Nasabah" AnchorPane.leftAnchor="10.0">
+                                             <font>
+                                                <Font size="15.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField fx:id="tfNewNoRekP" editable="false" layoutX="10.0" layoutY="86.0" prefHeight="32.0" prefWidth="261.0" promptText="Nomor Rekening Baru" AnchorPane.leftAnchor="10.0">
+                                             <font>
+                                                <Font size="15.0" />
+                                             </font>
+                                          </TextField>
+                                          <TextField fx:id="tfNewSaldoP" layoutX="10.0" layoutY="125.0" prefHeight="32.0" prefWidth="261.0" promptText="Jumlah Saldo" AnchorPane.leftAnchor="10.0">
+                                             <font>
+                                                <Font size="15.0" />
+                                             </font>
+                                          </TextField>
+                                          <Button fx:id="btnTambahRekP" layoutX="10.0" layoutY="195.0" mnemonicParsing="false" onAction="#handleTambahRekPBtn" prefHeight="31.0" prefWidth="261.0" text="Tambah Rekening" AnchorPane.leftAnchor="10.0">
+                                             <font>
+                                                <Font size="15.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Transaksi">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <AnchorPane layoutX="76.0" layoutY="12.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #00264D;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <children>
+                                    <TabPane layoutX="57.0" layoutY="47.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                       <tabs>
+                                          <Tab text="Tambah Saldo">
+                                             <content>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                   <children>
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #00264D;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <HBox layoutX="998.0" prefHeight="562.0" prefWidth="271.0" style="-fx-background-color: #92DFF3;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="998.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="10.0">
+                                                               <children>
+                                                                  <AnchorPane prefHeight="562.0" prefWidth="271.0" style="-fx-background-color: #808080;">
+                                                                     <children>
+                                                                        <Label alignment="CENTER" layoutX="42.0" layoutY="7.0" prefHeight="36.0" prefWidth="223.0" text="Formulir Nasabah" textAlignment="CENTER" underline="true" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                                                           <font>
+                                                                              <Font name="Arial" size="23.0" />
+                                                                           </font>
+                                                                        </Label>
+                                                                        <TextField fx:id="tfSearchIdNTbh" layoutX="18.0" layoutY="84.0" prefHeight="32.0" prefWidth="261.0" promptText="Masukkan/Pilih ID Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="80.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </TextField>
+                                                                        <Button fx:id="btnSearchIdNTbh" layoutX="10.0" layoutY="117.0" mnemonicParsing="false" onAction="#handleSearchIdNTbhBtn" prefHeight="21.0" prefWidth="131.0" text="Cari ID Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="128.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </Button>
+                                                                        <TextField fx:id="tfIdNTbh" editable="false" layoutX="10.0" layoutY="205.0" prefHeight="32.0" prefWidth="261.0" promptText="ID Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </TextField>
+                                                                        <TextField fx:id="tfNoRekTbh" editable="false" layoutX="10.0" layoutY="242.0" prefHeight="32.0" prefWidth="261.0" promptText="No Rekening" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </TextField>
+                                                                        <TextField fx:id="tfSaldoTbh" layoutX="10.0" layoutY="279.0" prefHeight="32.0" prefWidth="261.0" promptText="Jumlah Saldo" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </TextField>
+                                                                        <Button fx:id="btnTambahSaldo" layoutX="10.0" layoutY="316.0" mnemonicParsing="false" onAction="#handleTambahSaldoBtn" text="Tambah Saldo" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </Button>
+                                                                        <Button fx:id="btnHapusDataTbh" layoutX="10.0" layoutY="352.0" mnemonicParsing="false" onAction="#handleHapusTbhBtn" text="Hapus Data" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </Button>
+                                                                        <Label prefHeight="17.0" prefWidth="96.0" text="DataBase Status :" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="164.0" />
+                                                                        <Label fx:id="lblStatusTambahS" layoutX="114.0" layoutY="534.0" prefHeight="17.0" prefWidth="162.0" text="Tidak Terkoneksi" textFill="RED" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="107.0" AnchorPane.rightAnchor="10.0" />
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                               </children>
+                                                            </HBox>
+                                                            <AnchorPane layoutX="293.0" layoutY="67.0" prefHeight="562.0" prefWidth="602.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="293.0" AnchorPane.rightAnchor="385.0" AnchorPane.topAnchor="10.0">
+                                                               <children>
+                                                                  <TableView fx:id="tblRekTbh" layoutX="-285.0" layoutY="124.0" prefHeight="562.0" prefWidth="982.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-285.0" AnchorPane.rightAnchor="-95.0" AnchorPane.topAnchor="0.0">
+                                                                     <columns>
+                                                                        <TableColumn fx:id="colNoRekTbh" minWidth="0.0" prefWidth="494.0" text="No Rekening" />
+                                                                        <TableColumn fx:id="colSaldoTbh" minWidth="8.66668701171875" prefWidth="482.0" text="Saldo" />
+                                                                     </columns>
+                                                                  </TableView>
+                                                               </children>
+                                                            </AnchorPane>
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </children>
+                                                </AnchorPane>
+                                             </content>
+                                          </Tab>
+                                          <Tab text="Tarik Saldo">
+                                             <content>
+                                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                                   <children>
+                                                      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #00264D;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                         <children>
+                                                            <HBox layoutX="998.0" prefHeight="562.0" prefWidth="271.0" style="-fx-background-color: #92DFF3;" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="998.0" AnchorPane.rightAnchor="11.0" AnchorPane.topAnchor="10.0">
+                                                               <children>
+                                                                  <AnchorPane prefHeight="562.0" prefWidth="272.0" style="-fx-background-color: #808080;">
+                                                                     <children>
+                                                                        <Label alignment="CENTER" layoutX="42.0" layoutY="7.0" prefHeight="36.0" prefWidth="223.0" text="Formulir Nasabah" textAlignment="CENTER" underline="true" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                                                           <font>
+                                                                              <Font name="Arial" size="23.0" />
+                                                                           </font>
+                                                                        </Label>
+                                                                        <TextField fx:id="tfSearchIdNTrk" layoutX="18.0" layoutY="84.0" prefHeight="32.0" prefWidth="261.0" promptText="Masukkan/Pilih ID Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="80.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </TextField>
+                                                                        <Button fx:id="btnSearchIdNTrk" layoutX="10.0" layoutY="117.0" mnemonicParsing="false" onAction="#handleSearchIdNTrkBtn" prefHeight="21.0" prefWidth="131.0" text="Cari ID Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="128.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </Button>
+                                                                        <TextField fx:id="tfIdNTrk" editable="false" layoutX="10.0" layoutY="205.0" prefHeight="32.0" prefWidth="261.0" promptText="ID Nasabah" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </TextField>
+                                                                        <TextField fx:id="tfNoRekTrk" editable="false" layoutX="10.0" layoutY="242.0" prefHeight="32.0" prefWidth="261.0" promptText="No Rekening" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </TextField>
+                                                                        <TextField fx:id="tfSaldoTrk" layoutX="10.0" layoutY="279.0" prefHeight="32.0" prefWidth="261.0" promptText="Jumlah Saldo" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </TextField>
+                                                                        <Button fx:id="btnTarikSaldo" layoutX="10.0" layoutY="316.0" mnemonicParsing="false" onAction="#handleTarikSaldoBtn" text="Tarik Saldo" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </Button>
+                                                                        <Button fx:id="btnHapusDataTrk" layoutX="10.0" layoutY="352.0" mnemonicParsing="false" onAction="#handleHapusTrkBtn" text="Hapus Data" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                                                           <font>
+                                                                              <Font size="15.0" />
+                                                                           </font>
+                                                                        </Button>
+                                                                        <Label prefHeight="17.0" prefWidth="96.0" text="DataBase Status :" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="164.0" />
+                                                                        <Label fx:id="lblStatusTarikS" layoutX="114.0" layoutY="534.0" prefHeight="17.0" prefWidth="162.0" text="Tidak Terkoneksi" textFill="RED" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="107.0" AnchorPane.rightAnchor="10.0" />
+                                                                     </children>
+                                                                  </AnchorPane>
+                                                               </children>
+                                                            </HBox>
+                                                            <AnchorPane layoutX="7.0" layoutY="67.0" prefHeight="562.0" prefWidth="983.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="290.0" AnchorPane.topAnchor="10.0">
+                                                               <children>
+                                                                  <TableView fx:id="tblRekTrk" layoutX="586.0" layoutY="124.0" prefHeight="562.0" prefWidth="819.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                                     <columns>
+                                                                        <TableColumn fx:id="colNoRekTrk" minWidth="0.0" prefWidth="494.0" text="No Rekening" />
+                                                                        <TableColumn fx:id="colSaldoTrk" minWidth="8.66668701171875" prefWidth="482.0" text="Saldo" />
+                                                                     </columns>
+                                                                  </TableView>
+                                                               </children>
+                                                            </AnchorPane>
+                                                         </children>
+                                                      </AnchorPane>
+                                                   </children>
+                                                </AnchorPane>
+                                             </content>
+                                          </Tab>
+                                       </tabs>
+                                    </TabPane>
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+               </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
