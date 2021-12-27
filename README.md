@@ -84,13 +84,13 @@ classDiagram
         getConnection(String driver)
         createTable();
     }
-    
+'''    
 ![Class Diagram Banyak](https://user-images.githubusercontent.com/83533356/147459301-347ed88f-0dbc-4c8c-b7bd-46910d4253fc.PNG)
 
 
 # Class Diagram
 
-```Language
+```
 classDiagram
 
     Nasabah <|-- Individu
@@ -117,11 +117,11 @@ classDiagram
       +double getSaldo()
       +double getRek()
     }
-    
+'''    
 ![Class Diagram Dikit](https://user-images.githubusercontent.com/83533356/147459320-7d9ced7e-605c-4221-9d6d-43a59157e2cc.PNG)
 
     
-```
+
 
 # ER Diagram
 
@@ -146,8 +146,8 @@ erDiagram
             int rek
             double saldo
           }
-          
+'''         
 ![ERD](https://user-images.githubusercontent.com/83533356/147459343-3bb51478-330f-46f1-bcd2-eb2aa6ba11cc.PNG)
 
 
-```
+
